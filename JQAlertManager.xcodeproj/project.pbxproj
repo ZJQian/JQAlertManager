@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E533CFB7255CC80100642A09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E533CFB6255CC80100642A09 /* AppDelegate.swift */; };
+		E533CFBB255CC80100642A09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E533CFBA255CC80100642A09 /* ViewController.swift */; };
+		E533CFBE255CC80100642A09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E533CFBC255CC80100642A09 /* Main.storyboard */; };
+		E533CFC0255CC80400642A09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E533CFBF255CC80400642A09 /* Assets.xcassets */; };
+		E533CFC3255CC80400642A09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E533CFC1255CC80400642A09 /* LaunchScreen.storyboard */; };
+		E533CFD2255CC8AA00642A09 /* JQBottomAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E533CFCC255CC8AA00642A09 /* JQBottomAnimation.swift */; };
+		E533CFD3255CC8AA00642A09 /* JQCenterFromTopAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E533CFCD255CC8AA00642A09 /* JQCenterFromTopAnimation.swift */; };
+		E533CFD4255CC8AA00642A09 /* JQBaseAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E533CFCE255CC8AA00642A09 /* JQBaseAnimation.swift */; };
+		E533CFD5255CC8AA00642A09 /* CenterScaleAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E533CFCF255CC8AA00642A09 /* CenterScaleAnimation.swift */; };
+		E533CFD6255CC8AA00642A09 /* UIViewController+JQAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = E533CFD0255CC8AA00642A09 /* UIViewController+JQAlert.swift */; };
+		E533CFD7255CC8AA00642A09 /* JQAlertPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E533CFD1255CC8AA00642A09 /* JQAlertPresentationController.swift */; };
+		E533CFDF255CCA2900642A09 /* JQBaseAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E533CFDE255CCA2900642A09 /* JQBaseAlertViewController.swift */; };
+		E533CFE3255CCD4F00642A09 /* JQTestAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E533CFE2255CCD4F00642A09 /* JQTestAlertViewController.swift */; };
+		E533CFE6255CCFB400642A09 /* JQBottomSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E533CFE5255CCFB400642A09 /* JQBottomSheetViewController.swift */; };
+		E533CFE9255CD86600642A09 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E533CFE8255CD86600642A09 /* TestViewController.swift */; };
+		E533CFEC255CDA8100642A09 /* JQWithNaviPushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E533CFEB255CDA8100642A09 /* JQWithNaviPushViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E533CFB3255CC80100642A09 /* JQAlertManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JQAlertManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E533CFB6255CC80100642A09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E533CFBA255CC80100642A09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E533CFBD255CC80100642A09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E533CFBF255CC80400642A09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E533CFC2255CC80400642A09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E533CFC4255CC80400642A09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E533CFCC255CC8AA00642A09 /* JQBottomAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JQBottomAnimation.swift; sourceTree = "<group>"; };
+		E533CFCD255CC8AA00642A09 /* JQCenterFromTopAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JQCenterFromTopAnimation.swift; sourceTree = "<group>"; };
+		E533CFCE255CC8AA00642A09 /* JQBaseAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JQBaseAnimation.swift; sourceTree = "<group>"; };
+		E533CFCF255CC8AA00642A09 /* CenterScaleAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenterScaleAnimation.swift; sourceTree = "<group>"; };
+		E533CFD0255CC8AA00642A09 /* UIViewController+JQAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+JQAlert.swift"; sourceTree = "<group>"; };
+		E533CFD1255CC8AA00642A09 /* JQAlertPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JQAlertPresentationController.swift; sourceTree = "<group>"; };
+		E533CFDE255CCA2900642A09 /* JQBaseAlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JQBaseAlertViewController.swift; sourceTree = "<group>"; };
+		E533CFE2255CCD4F00642A09 /* JQTestAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JQTestAlertViewController.swift; sourceTree = "<group>"; };
+		E533CFE5255CCFB400642A09 /* JQBottomSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JQBottomSheetViewController.swift; sourceTree = "<group>"; };
+		E533CFE8255CD86600642A09 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		E533CFEB255CDA8100642A09 /* JQWithNaviPushViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JQWithNaviPushViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E533CFB0255CC80100642A09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E533CFAA255CC80100642A09 = {
+			isa = PBXGroup;
+			children = (
+				E533CFB5255CC80100642A09 /* JQAlertManager */,
+				E533CFB4255CC80100642A09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E533CFB4255CC80100642A09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E533CFB3255CC80100642A09 /* JQAlertManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E533CFB5255CC80100642A09 /* JQAlertManager */ = {
+			isa = PBXGroup;
+			children = (
+				E533CFCB255CC84100642A09 /* Alert */,
+				E533CFB6255CC80100642A09 /* AppDelegate.swift */,
+				E533CFBA255CC80100642A09 /* ViewController.swift */,
+				E533CFE8255CD86600642A09 /* TestViewController.swift */,
+				E533CFE2255CCD4F00642A09 /* JQTestAlertViewController.swift */,
+				E533CFEB255CDA8100642A09 /* JQWithNaviPushViewController.swift */,
+				E533CFE5255CCFB400642A09 /* JQBottomSheetViewController.swift */,
+				E533CFBC255CC80100642A09 /* Main.storyboard */,
+				E533CFBF255CC80400642A09 /* Assets.xcassets */,
+				E533CFC1255CC80400642A09 /* LaunchScreen.storyboard */,
+				E533CFC4255CC80400642A09 /* Info.plist */,
+			);
+			path = JQAlertManager;
+			sourceTree = "<group>";
+		};
+		E533CFCB255CC84100642A09 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				E533CFD1255CC8AA00642A09 /* JQAlertPresentationController.swift */,
+				E533CFCE255CC8AA00642A09 /* JQBaseAnimation.swift */,
+				E533CFCC255CC8AA00642A09 /* JQBottomAnimation.swift */,
+				E533CFCD255CC8AA00642A09 /* JQCenterFromTopAnimation.swift */,
+				E533CFCF255CC8AA00642A09 /* CenterScaleAnimation.swift */,
+				E533CFD0255CC8AA00642A09 /* UIViewController+JQAlert.swift */,
+				E533CFDE255CCA2900642A09 /* JQBaseAlertViewController.swift */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E533CFB2255CC80100642A09 /* JQAlertManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E533CFC7255CC80400642A09 /* Build configuration list for PBXNativeTarget "JQAlertManager" */;
+			buildPhases = (
+				E533CFAF255CC80100642A09 /* Sources */,
+				E533CFB0255CC80100642A09 /* Frameworks */,
+				E533CFB1255CC80100642A09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JQAlertManager;
+			productName = JQAlertManager;
+			productReference = E533CFB3255CC80100642A09 /* JQAlertManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E533CFAB255CC80100642A09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JQ;
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					E533CFB2255CC80100642A09 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = E533CFAE255CC80100642A09 /* Build configuration list for PBXProject "JQAlertManager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E533CFAA255CC80100642A09;
+			productRefGroup = E533CFB4255CC80100642A09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E533CFB2255CC80100642A09 /* JQAlertManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E533CFB1255CC80100642A09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E533CFC3255CC80400642A09 /* LaunchScreen.storyboard in Resources */,
+				E533CFC0255CC80400642A09 /* Assets.xcassets in Resources */,
+				E533CFBE255CC80100642A09 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E533CFAF255CC80100642A09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E533CFEC255CDA8100642A09 /* JQWithNaviPushViewController.swift in Sources */,
+				E533CFD3255CC8AA00642A09 /* JQCenterFromTopAnimation.swift in Sources */,
+				E533CFD7255CC8AA00642A09 /* JQAlertPresentationController.swift in Sources */,
+				E533CFD4255CC8AA00642A09 /* JQBaseAnimation.swift in Sources */,
+				E533CFBB255CC80100642A09 /* ViewController.swift in Sources */,
+				E533CFE3255CCD4F00642A09 /* JQTestAlertViewController.swift in Sources */,
+				E533CFDF255CCA2900642A09 /* JQBaseAlertViewController.swift in Sources */,
+				E533CFD2255CC8AA00642A09 /* JQBottomAnimation.swift in Sources */,
+				E533CFB7255CC80100642A09 /* AppDelegate.swift in Sources */,
+				E533CFD5255CC8AA00642A09 /* CenterScaleAnimation.swift in Sources */,
+				E533CFD6255CC8AA00642A09 /* UIViewController+JQAlert.swift in Sources */,
+				E533CFE9255CD86600642A09 /* TestViewController.swift in Sources */,
+				E533CFE6255CCFB400642A09 /* JQBottomSheetViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E533CFBC255CC80100642A09 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E533CFBD255CC80100642A09 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E533CFC1255CC80400642A09 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E533CFC2255CC80400642A09 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E533CFC5255CC80400642A09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E533CFC6255CC80400642A09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E533CFC8255CC80400642A09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JQAlertManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.company.JQAlertManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E533CFC9255CC80400642A09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JQAlertManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.company.JQAlertManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E533CFAE255CC80100642A09 /* Build configuration list for PBXProject "JQAlertManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E533CFC5255CC80400642A09 /* Debug */,
+				E533CFC6255CC80400642A09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E533CFC7255CC80400642A09 /* Build configuration list for PBXNativeTarget "JQAlertManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E533CFC8255CC80400642A09 /* Debug */,
+				E533CFC9255CC80400642A09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E533CFAB255CC80100642A09 /* Project object */;
+}
