@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
     一个简单实用的alert组件，可进行动画的拓展和自定义
                    DESC
 
-  spec.homepage     = "https://github.com/ZJQian/JQAlertManger"
+  spec.homepage     = "https://github.com/ZJQian/JQAlertManager"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -81,7 +81,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/ZJQian/JQAlertManger.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/ZJQian/JQAlertManager.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
